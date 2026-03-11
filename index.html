@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Número Mágico</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="/css/styles.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="game">
+
+    <h1>🎮 NÚMERO MÁGICO</h1>
+
+    <p class="subtitle">Adivina el número entre <span>1</span> y <span>100</span></p>
+
+    <!-- CRONÓMETRO -->
+    <div class="timer">
+        ⏱ Tiempo: <span id="time">0</span> s
+    </div>
+
+    <div class="input-zone">
+
+        <input 
+        type="number" 
+        id="guessInput" 
+        min="1" 
+        max="100" 
+        placeholder="??">
+
+        <button id="guessBtn">ADIVINAR</button>
+
+    </div>
+
+    <div class="feedback">
+
+        <div id="message" class="message"></div>
+
+    </div>
+
+    <div class="history" id="history"></div>
+
+    <button id="resetBtn">REINICIAR JUEGO</button>
+
+</div>
+
+<script src="/js/script.js"></script>
+
+</body>
+</html>

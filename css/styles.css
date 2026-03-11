@@ -1,0 +1,245 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+background:#0f172a;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+font-family:'Press Start 2P', monospace;
+
+color:white;
+
+background-image:
+radial-gradient(circle at 20% 20%, #1e3a8a 0%, transparent 40%),
+radial-gradient(circle at 80% 70%, #9333ea 0%, transparent 40%),
+radial-gradient(circle at 50% 100%, #0ea5e9 0%, transparent 40%);
+}
+
+/* CONTENEDOR */
+
+.game{
+
+background:#020617;
+
+border:3px solid #38bdf8;
+
+padding:40px;
+
+border-radius:15px;
+
+text-align:center;
+
+width:90%;
+max-width:500px;
+
+box-shadow:
+0 0 15px #38bdf8,
+0 0 30px #38bdf8;
+
+}
+
+/* TITULO */
+
+h1{
+
+font-size:22px;
+
+margin-bottom:20px;
+
+color:#22d3ee;
+
+text-shadow:0 0 10px #22d3ee;
+
+}
+
+/* subtitulo */
+
+.subtitle{
+
+font-size:12px;
+
+margin-bottom:20px;
+
+color:#cbd5f5;
+
+}
+
+/* CRONÓMETRO */
+
+.timer{
+
+margin-bottom:25px;
+
+font-size:12px;
+
+color:#facc15;
+
+text-shadow:0 0 8px #facc15;
+
+}
+
+/* zona input */
+
+.input-zone{
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+align-items:center;
+
+}
+
+/* input */
+
+input{
+
+width:140px;
+
+padding:12px;
+
+font-size:18px;
+
+text-align:center;
+
+border:none;
+
+outline:none;
+
+background:black;
+
+color:#22c55e;
+
+border:2px solid #22c55e;
+
+border-radius:8px;
+
+font-family:'Press Start 2P';
+
+}
+
+/* botones */
+
+button{
+
+padding:12px 20px;
+
+border:none;
+
+border-radius:8px;
+
+cursor:pointer;
+
+font-size:11px;
+
+font-family:'Press Start 2P';
+
+transition:0.25s;
+
+}
+
+/* boton intentar */
+
+#guessBtn{
+
+background:#22c55e;
+
+color:black;
+
+box-shadow:0 0 10px #22c55e;
+
+}
+
+#guessBtn:hover{
+
+transform:scale(1.05);
+
+box-shadow:0 0 20px #22c55e;
+
+}
+
+/* boton reiniciar */
+
+#resetBtn{
+
+margin-top:25px;
+
+background:#ef4444;
+
+color:white;
+
+display:none;
+
+box-shadow:0 0 10px #ef4444;
+
+}
+
+#resetBtn:hover{
+
+transform:scale(1.05);
+
+}
+
+/* MENSAJES */
+
+.feedback{
+
+margin-top:25px;
+
+min-height:50px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+}
+
+.message{
+
+font-size:14px;
+
+}
+
+/* flechas */
+
+.up{
+
+color:#22c55e;
+
+font-size:30px;
+
+text-shadow:0 0 10px #22c55e;
+
+}
+
+.down{
+
+color:#f87171;
+
+font-size:30px;
+
+text-shadow:0 0 10px #f87171;
+
+}
+
+/* historial */
+
+.history{
+
+margin-top:25px;
+
+font-size:10px;
+
+color:#94a3b8;
+
+}
